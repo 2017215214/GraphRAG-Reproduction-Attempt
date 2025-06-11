@@ -1,0 +1,43 @@
+# 操作系统或IDE相关
+.DS_Store
+Thumbs.db
+.vscode/ 
+
+# 依赖管理工具生成的文件夹
+node_modules/
+target/
+build/
+dist/
+env/
+venv/
+vllm_env/
+Cache/
+experiments/
+others/
+tests/
+texts/
+*.egg-info/
+*.pyc
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*~
+
+
+# 其余文件
+提示.md
+项目分析摘要.md
+check.md
+debug_vllm_tp.sh
+qwen3_vLLM.md
+report.md
+embedding_api.py
+project_tree.md
+
+# 缓存
+.vscode/
+__pycache__/
+.pytest_cache/
