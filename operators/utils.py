@@ -34,7 +34,7 @@ def load_json_file(file_path: str):
     with open(file_path, encoding='utf-8') as f:
         return json.load(f)
     
-logger = logging.getLogger("nano-graphrag")
+logger = logging.getLogger("dyh")
 
 # 写回硬盘
 def write_json(json_object, file_name):

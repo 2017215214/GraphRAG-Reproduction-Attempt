@@ -26,7 +26,7 @@ class QwenChatAPI(BaseQwenClient):
         self,
         prompt: str,
         history: Optional[List[Union[Dict, tuple]]] = None,
-        temperature: float = 0.6,
+        temperature: float = 0.4,
         max_tokens: int = 2048,
         retry_on_rate_limit: bool = True,
     ) -> Dict[str, Any]:

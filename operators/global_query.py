@@ -138,7 +138,7 @@ async def _map_communities_into_groups_and_get_points(used_communities: list[Com
         prompt = prompt.format(context_data=community_context)
         
         response = await get_answer_from_qwen(client=client, prompt=prompt)
-        print(f"Group Response: {response}")
+        # print(f"Group Response: {response}")
         if response is None:
             logger.error("Failed to get response from LLM.")
             return {}
