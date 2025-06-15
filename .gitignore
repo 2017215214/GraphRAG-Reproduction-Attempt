@@ -36,6 +36,7 @@ qwen3_vLLM.md
 report.md
 embedding_api.py
 project_tree.md
+record.md
 
 # 缓存
 .vscode/
