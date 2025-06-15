@@ -23,6 +23,24 @@ graph TD
     D --> D3[朴素查询<br/>Naive Query]
 ```
 
+```mermaid
+graph TD
+    A[GraphRAG] --> B[Data Processing System]
+    A --> C[Data Storage System] 
+    A --> D[Query System]
+    
+    B --> B1[Text Processing]
+    B --> B2[Entity Relation Extraction]
+    B --> B3[Graph Construction and Clustering]
+    
+    C --> C1[KV_Storage<br/>text/chunk/community]
+    C --> C2[Vector_Storage<br/>entity向量]
+    C --> C3[Graph<br/>NetworkX图]
+    
+    D --> D1[全局查询<br/>Global Query]
+    D --> D2[朴素查询<br/>Naive Query]
+```
+
 ### 1.2 项目文件架构
 
 ```mermaid

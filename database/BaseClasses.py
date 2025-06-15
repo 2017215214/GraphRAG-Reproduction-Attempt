@@ -126,4 +126,4 @@ class BaseGraphStorage(StorageNameSpace):
         raise NotImplementedError
     
     # async def embed_nodes(self, algorithm: str) -> tuple[np.ndarray, list[str]]:
-    #     raise NotImplementedError("Node embedding is not used in nano-graphrag.")
+    #     raise NotImplementedError

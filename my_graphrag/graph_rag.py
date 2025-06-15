@@ -35,7 +35,6 @@ from operators.naive_query import naive_query
 
 
 # 注意利用AI添加注释，还有输出，作为可视化
-# 注意清楚nano-graphrag的输出标识
 # 解决think输出，prompt的添加，get_answer_from_qwen的输出等问题，prompt添加在truncate_prompt里面可能会比较好？？？
 # 再看一下global_query里面的145行的断点输出，很奇怪，老是输出think
 # Looking at the first entry, "importance": 0.030303030303030304，太低导致思考
